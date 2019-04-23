@@ -79,7 +79,7 @@ const ourDepartments = combineReducers({
   policies: policies
 });
 
-//create our store (state object)
+//create our store (contains all of our reducers and all of the state of the application)
 const store = createStore(ourDepartments);
 
 //create some policies
